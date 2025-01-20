@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+.application-heading{
+    color: #1f2937;
+    font-size: 24px;
+    font-family: 'Ovo',serif;
+    font-weight: 700;
+    text-align: center;
+}
+.main-content{
+    max-width: 896px;
+    margin: 50px auto;
+    padding: 32px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Ovo',serif;
+}
+
+#apply-form{
+    margin: 20px 0;
+}
+.main-content label{
+    display: block;
+    color: #616161;
+    font-weight: 500;
+    margin: 8px 0px;
+    font-size: large;
+}
+
+.main-content input,select,textarea {
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 10px 16px;
+    outline: none;
+}
+
+.submit{
+    width: fit-content;
+    margin: 25px auto;
+}
+.main-content button{
+    color: white;
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity, 1));
+    padding: 10px 24px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Ovo',serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.main-content button:hover{
+    background-color: rgb(67 56 202 / var(--tw-bg-opacity, 1)) !important;
+}
+
+.field{
+    display: flex;
+    gap: 25px;
+    margin: 8px 0px;
+}
