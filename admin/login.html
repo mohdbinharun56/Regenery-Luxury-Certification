@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Login</title>
+    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
+
 <body>
-    
+    <main class="main-content">
+        <h1 class="login-heading">Admin Login</h1>
+        <h4 class="login-title">Only Admins can log in to this website.</h4>
+        <section>
+            <form>
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter your password" required>
+
+                <div class="prove">
+                    <label for="">Prove your humanity</label>
+                    <span>5 + 9 = </span><input type="number" placeholder="Answer the question">
+                </div>
+
+                <div class="submit">
+                    <button class="btn">Login</button>
+                    <a href="">Forget Password?</a>
+                </div>
+                <!-- <input type="submit" value="Submit Application" > -->
+            </form>
+        </section>
+
+        <p>All rights reserved by <span>Regenera Luxury</span>.</p>
+        <div class="field">
+            <a href="/"><button class="btn">Go Back to Site</button></a>
+        </div>
+    </main>
+
 </body>
+
 </html>
