@@ -69,3 +69,50 @@
     width: 100%;
     margin: 20px 0px;
 }
+
+.clients-heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Ovo',serif;
+    margin: 50px 0px;
+}
+
+.client-nav{
+    width: fit-content;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 15px 15px 90px;
+}
+
+.client-nav a{
+    display: block;
+    border-bottom: 1px solid #333;
+    margin-bottom: 5px;
+}
+
+.client-nav a button{
+    color: white;
+    background-color: rgb(79 70 229 / var(--tw-bg-opacity, 1));
+    padding: 10px 24px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Ovo',serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.client-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+}
+
+.save{
+    width: fit-content;
+    margin: 15px auto 0px auto;
+}
