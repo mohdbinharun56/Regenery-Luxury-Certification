@@ -2,9 +2,9 @@
 fetch('/includes/header.html').then(res=>res.text()).then(data=>document.getElementById('header').innerHTML=data) 
 
 // display application-status-form to fetch data
-fetch('/application-status.html')
+fetch('/verify.html')
 .then(res=>res.text())
-.then(data=>document.getElementById('application-status-form').innerHTML=data);
+.then(data=>document.getElementById('verify').innerHTML=data);
 
 // display footer 
 fetch('/includes/footer.html')
