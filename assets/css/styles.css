@@ -59,9 +59,9 @@ body{
     width: 512px;
     padding: 20px;
     margin: 200px auto;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .status-form form input[type="text"]{
