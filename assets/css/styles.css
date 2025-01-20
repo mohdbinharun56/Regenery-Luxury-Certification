@@ -51,3 +51,40 @@ figure img{
     width: 130px;
 }
 
+.status-form{
+    width: 512px;
+    padding: 20px;
+    margin: 200px auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.status-form form input[type="text"]{
+    width: 70%;
+    padding: 12px 16px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #7a7b7e;
+    border-radius: 5px;
+}
+
+.status-form form input[type="submit"]{
+    width: 20%;
+    padding: 12px 24px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.status-form form input[type="submit"]:hover{
+    background-color: #2563EB !important;
+}
